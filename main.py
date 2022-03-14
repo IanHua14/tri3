@@ -17,15 +17,15 @@ def index():
 
 @app.route('/NaA')
 def NaA():
-    return render_template("NaA.html")
+    return render_template("notes.html")
 
 @app.route('/CT')
 def CT():
-    return render_template("CT.html")
+    return render_template("createtask.html")
 
 @app.route('/DOP')
 def DOP():
-    return render_template("DOP.html")
+    return render_template("documentoproject.html")
 
 @app.route('/5.1.2')
 def five1():
